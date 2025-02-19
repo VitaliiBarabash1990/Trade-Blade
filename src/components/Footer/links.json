@@ -1,0 +1,9 @@
+[
+	{ "id": 0, "link": "#Numbers", "text": "цифры" },
+	{ "id": 1, "link": "#Deals", "text": "сделки онлайн" },
+	{ "id": 2, "link": "#AboutCompany", "text": "о компании" },
+	{ "id": 3, "link": "#Tradeblad", "text": "tradeblad это" },
+	{ "id": 4, "link": "#HowToStart", "text": "как начать" },
+	{ "id": 5, "link": "#Tariffs", "text": "тарифы" },
+	{ "id": 6, "link": "#FAQ", "text": "FAQ" }
+]

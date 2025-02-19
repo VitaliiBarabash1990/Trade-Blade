@@ -1,0 +1,73 @@
+.navMob_wraper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	padding: 16px;
+}
+.navMenu {
+	display: flex;
+	gap: 32px;
+	margin-top: 48px;
+	text-align: left;
+}
+
+.navMenu_link {
+	display: flex;
+	align-self: start;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 175%;
+	color: var(--white);
+}
+
+.navMenu_link:hover,
+.navMenu_link:focus {
+	color: var(--background-button);
+	border: 1px solid var(--background-button);
+	padding: 0 50px;
+	border-radius: 20px;
+}
+.navlink_mob {
+	font-size: 24px;
+}
+.navMenu_modal {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.registration_item {
+	display: flex;
+	gap: 16px;
+	margin: 0 auto;
+}
+
+.enter_button {
+	border: none;
+	border-radius: 3px;
+	padding: 16px 24px;
+	width: 100%;
+	height: 52px;
+	box-shadow: 0 0 4px 0 var(--q);
+	background: var(--q);
+	text-transform: uppercase;
+}
+
+.registration_button {
+	border: 2px solid var(--q);
+	border-radius: 3px;
+	padding: 16px 24px;
+	width: 100%;
+	height: 52px;
+	box-shadow: 0 0 4px 0 var(--q);
+	background: rgba(87, 225, 255, 0.2);
+}
+
+@media screen and (min-width: 375px) {
+	.enter_button,
+	.registration_button {
+		width: 163px;
+	}
+}

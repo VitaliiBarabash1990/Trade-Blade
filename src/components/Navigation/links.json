@@ -1,0 +1,9 @@
+[
+	{ "id": 0, "link": "#Numbers", "text": "цифры" },
+	{ "id": 1, "link": "#Deals", "text": "сделки онлайн" },
+	{ "id": 2, "link": "#AboutCompany", "text": "о компании" },
+	{ "id": 3, "link": "#HowToStart", "text": "как начать" },
+	{ "id": 4, "link": "#Tariffs", "text": "тарифы" },
+	{ "id": 5, "link": "#Reviews", "text": "отзывы" },
+	{ "id": 6, "link": "#FAQ", "text": "FAQ" }
+]

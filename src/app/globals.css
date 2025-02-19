@@ -1,0 +1,182 @@
+:root {
+	box-sizing: border-box;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+:root {
+	--font-family: "IBM Plex Sans", sans-serif;
+}
+
+:root {
+	--purple: #6a54ff;
+	--q: #57e1ff;
+	--white: #fff;
+	--button-registration: #030718;
+}
+
+/* Reset styles */
+
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 50px;
+}
+
+body {
+	color: var(--white);
+	background-color: #030718;
+}
+
+html,
+body {
+	overflow-x: hidden;
+	width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	color: currentColor;
+	text-decoration: none;
+}
+
+address {
+	font-style: normal;
+}
+
+button {
+	cursor: pointer;
+}
+
+.button {
+	padding: 0;
+	margin: 0;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.button:hover,
+.button:focus {
+	background: var(--button-active);
+}
+
+input {
+	outline: transparent;
+}
+
+textarea {
+	outline: transparent;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	min-width: 100%;
+	padding-left: 16px;
+	padding-right: 16px;
+	margin: 0 auto;
+}
+
+.section {
+	padding: 48px 0;
+}
+
+.title {
+	font-family: var(--font-family);
+	font-weight: 700;
+	line-height: 126%;
+	letter-spacing: -0.04em;
+	text-transform: uppercase;
+	color: var(--white);
+}
+
+.text {
+	font-family: var(--font-family);
+	font-weight: 400;
+	line-height: 125%;
+	color: #e7f7f8;
+}
+
+.p {
+	font-family: var(--font-family);
+	font-weight: 400;
+	line-height: 143%;
+	color: var(--white);
+}
+
+.navlink {
+	display: block;
+	font-weight: 500;
+	line-height: 125%;
+	text-transform: uppercase;
+	color: var(--white);
+}
+
+/* .visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+} */
+
+@media screen and (min-width: 375px) {
+	.container {
+		max-width: 767px;
+		padding: 0 16px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 1279px;
+		padding: 0 32px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.container {
+		max-width: 1439px;
+		padding: 0 48px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.container {
+		max-width: 1600px;
+	}
+}
+
+.no-scroll {
+	overflow: hidden;
+}
