@@ -2,309 +2,227 @@
 	padding-top: 180px;
 	padding-bottom: 44px;
 }
-
-@media screen and (min-width: 1200px) {
-	.tariffs {
-		padding-top: 96px;
-		padding-bottom: 96px;
-	}
+.icon {
+	width: 24px;
+	height: 24px;
 }
-
-@media screen and (min-width: 1200px) {
-	.tariffs-container {
-		max-width: 866px;
-	}
-}
-
-.tarrifs-title {
+.tarrifsTitle {
 	margin-bottom: 28px;
-
-	color: var(--main-color);
+	color: var(--white);
 }
-
-@media screen and (min-width: 1200px) {
-	.tarrifs-title {
-		margin-bottom: 40px;
-	}
-}
-
-.buttons-wrapper {
+.buttonsWrapper {
 	position: relative;
-
-	margin-bottom: 24px;
+	margin-bottom: 100px;
 }
-
-@media screen and (min-width: 1200px) {
-	.buttons-wrapper {
-		margin-bottom: 44px;
-	}
-}
-
-.buttons-wrapper > .item-spot {
+.buttonsWrapper > .itemSpot {
 	position: absolute;
 	top: 50%;
 	left: 4px;
-
 	transform: translateY(-50%);
 }
-
-.button-basic {
+.buttonBasic {
 	padding-top: 14px;
 	padding-bottom: 14px;
 	padding-right: 47px;
 	min-width: 343px;
-
 	font-size: 18px;
-	font-weight: var(--basic-font-weight);
+	font-weight: 500;
 	line-height: calc(24 / 18);
-
 	letter-spacing: -0.72px;
-
 	text-align: end;
-
 	border-radius: 4px;
 	background-color: rgba(106, 84, 255, 0.4);
 	border: none;
 	color: rgba(87, 225, 255, 0.8);
 }
-
-@media screen and (min-width: 1200px) {
-	.button-basic {
-		padding-top: 12px;
-		padding-bottom: 12px;
-		padding-right: 49px;
-
-		min-width: 413px;
-
-		font-size: 24px;
-		line-height: calc(28 / 24);
-		letter-spacing: -0.96px;
-	}
-}
-
-.button-basic.button-spot {
+.buttonBasic.buttonSpot {
 	min-width: 167px;
-
 	padding: 10px 60px;
 	font-weight: 700;
-
-	background-color: var(--secondary-color);
+	background-color: var(--q);
 	color: #000000;
 }
-
-@media screen and (min-width: 1200px) {
-	.button-basic.button-spot {
-		padding: 8px 70px;
-
-		min-width: 201px;
-	}
-}
-
-.tariffs-list {
+.tariffsList {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
 }
-
-@media screen and (min-width: 1200px) {
-	.tariffs-list {
-		flex-direction: row;
-	}
-}
-
-.tariffs-item {
+.tariffsItem {
 	padding: 16px;
-
 	border-radius: 8px;
-	border: 1px solid var(--accent-color);
+	border: 1px solid var(--purple);
 }
-
-@media screen and (min-width: 1200px) {
-	.tariffs-item {
-		padding: 23px;
-
-		width: 413px;
-		height: 556px;
-
-		display: flex;
-		flex-direction: column;
-	}
+.tariffsItem.vip {
+	background-color: var(--purple);
 }
-
-.tariffs-item.vip {
-	background-color: var(--accent-color);
-}
-
-.tariffs .sub-title {
+.tariffs .subTitle {
 	margin-bottom: 24px;
 }
-
-@media screen and (min-width: 1200px) {
-	.tariffs .sub-title {
-		margin-bottom: 56px;
-
-		font-size: 32px;
-		line-height: calc(48 / 32);
-		letter-spacing: -1.28px;
-	}
-}
-
-.tariffs .standart-list {
+.tariffs .standartList {
 	margin-bottom: 32px;
 }
-
-@media screen and (min-width: 1200px) {
-	.tariffs .standart-list {
-		/* margin-bottom: 120px; */
-		margin-bottom: auto;
-	}
-}
-
-.tariffs .vip-list {
+.tariffs .vipList {
 	margin-bottom: 48px;
 }
-
-@media screen and (min-width: 1200px) {
-	.tariffs .vip-list {
-		/* margin-bottom: 48px; */
-		margin-bottom: auto;
-	}
-}
-
-.tariffs .standart-item,
-.tariffs .vip-item {
+.tariffs .standartItem,
+.tariffs .vipItem {
 	position: relative;
-
 	display: flex;
 	align-items: flex-start;
 	gap: 10px;
 }
-
-.standart-item:not(:last-child),
-.vip-item:not(:last-child) {
+.standartItem:not(:last-child),
+.vipItem:not(:last-child) {
 	margin-bottom: 16px;
 }
-
-.standart-item::after,
-.vip-item::after {
+.standartItem::after,
+.vipItem::after {
 	position: absolute;
 	bottom: -9px;
 	left: -16px;
-
 	width: 341px;
-
 	content: "";
 	display: block;
-
 	height: 1px;
 	border: 1px dashed rgba(255, 255, 255, 0.2);
 }
-
-@media screen and (min-width: 1200px) {
-	.standart-item::after,
-	.vip-item::after {
-		left: -24px;
-
-		width: 412px;
-	}
-}
-
-.tariffs .standart-icon,
-.tariffs .vip-icon {
+.tariffs .standartIcon,
+.tariffs .vipIcon {
 	margin-top: 4px;
-
 	flex-shrink: 0;
-	stroke: var(--main-color);
+	stroke: var(--white);
 }
-
-.tariffs-text {
-	line-height: var(--main-line-height);
-
-	color: var(--main-color);
+.tariffsText {
+	line-height: calc(20 / 16);
+	color: var(--white);
 }
-
-.tariffs .price-button {
+.tariffs .priceButton {
 	margin-bottom: 24px;
-
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-
-.tariffs-price {
+.tariffsPrice {
 	position: relative;
-	/* display: flex;
-align-items: start;
-gap: 4px; */
-
 	font-size: 35px;
-	font-weight: var(--basic-font-weight);
+	font-weight: 500;
 	line-height: calc(40 / 35);
 	letter-spacing: -1.4px;
-
-	color: var(--main-color);
+	color: var(--white);
 }
 
-.tarrifs-discount {
+.tarrifsDiscount {
 	position: absolute;
 	top: -1px;
 	right: -47px;
-
 	font-size: 18px;
 	line-height: calc(20 / 18);
 	letter-spacing: -0.72px;
-	text-transform: var(--basic-text-transform);
-
+	text-transform: uppercase;
 	color: #35ff9e;
 }
 
-.tariffs-button {
+.tariffsButton {
 	padding: 6px 5px 6px 8px;
 	min-width: 128px;
-
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-
-	line-height: var(--main-line-height);
+	line-height: calc(20 / 16);
 	text-transform: lowercase;
-
 	border-radius: 4px;
 	background-color: rgba(255, 255, 255, 0.2);
-	color: var(--main-color);
+	color: var(--white);
 }
-
-.tariffs-button > .month-icon {
+.tariffsButton > .monthIcon {
 	stroke: rgb(255, 255, 255);
 }
-
-.tariffs-link {
+.tariffsLink {
 	padding: 8px 94px;
 	display: block;
 	text-align: center;
-
 	border-radius: 3px;
-	background-color: var(--secondary-color);
-	box-shadow: 0px 0px 4px 0px var(--secondary-color);
+	background-color: var(--q);
+	box-shadow: 0px 0px 4px 0px var(--q);
 }
 
-@media screen and (min-width: 1200px) {
-	.tariffs-link {
-		min-width: 365px;
-	}
-}
-
-.tariffs-link > .text-try {
-	font-weight: var(--basic-font-weight);
-	line-height: var(--main-line-height);
-	text-transform: var(--basic-text-transform);
-
+.tariffsLink > .textTry {
+	font-weight: 500;
+	line-height: calc(20 / 16);
+	text-transform: uppercase;
 	color: #030718;
 }
 
 .tariffsLink > .textFree {
 	font-size: 12px;
 	line-height: calc(16 / 12);
-
 	color: rgba(3, 7, 24, 0.56);
+}
+.wraperContainer {
+	margin: 0 auto;
+}
+.tariffsContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: center;
+}
+
+@media screen and (min-width: 1280px) {
+	.tariffs {
+		padding-top: 96px;
+		padding-bottom: 96px;
+	}
+	.tariffsContainer {
+		max-width: 866px;
+	}
+	.tarrifsTitle {
+		margin-bottom: 40px;
+	}
+	.buttons-wrapper {
+		margin-bottom: 44px;
+	}
+	.buttonBasic {
+		padding-top: 12px;
+		padding-bottom: 12px;
+		padding-right: 49px;
+		min-width: 413px;
+		font-size: 24px;
+		line-height: calc(28 / 24);
+		letter-spacing: -0.96px;
+	}
+	.buttonBasic.buttonSpot {
+		padding: 8px 70px;
+		min-width: 201px;
+	}
+	.tariffsList {
+		flex-direction: row;
+	}
+	.tariffsItem {
+		padding: 23px;
+		width: 413px;
+		height: 556px;
+		display: flex;
+		flex-direction: column;
+	}
+	.tariffs .subTitle {
+		margin-bottom: 56px;
+		font-size: 32px;
+		line-height: calc(48 / 32);
+		letter-spacing: -1.28px;
+	}
+	.tariffs .standartList {
+		margin-bottom: auto;
+	}
+	.tariffs .vipList {
+		margin-bottom: auto;
+	}
+	.standartItem::after,
+	.vipItem::after {
+		left: -24px;
+		width: 412px;
+	}
+	.tariffsLink {
+		min-width: 365px;
+	}
 }
