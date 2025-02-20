@@ -23,7 +23,7 @@ export default function Deals() {
 	}, []);
 
 	return (
-		<section className={s.pastTrades}>
+		<section id="Deals" className={s.pastTrades}>
 			<div className={`container ${s.tradesContainer}`}>
 				<h2 className={`title ${s.tradeTitle}`}>Прошедшие сделки</h2>
 				<p className={s.tradeStatus}>Онлайн</p>

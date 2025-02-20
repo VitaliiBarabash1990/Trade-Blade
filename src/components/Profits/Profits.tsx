@@ -3,7 +3,7 @@ import s from "./Profits.module.css";
 
 export default function Profits() {
 	return (
-		<section className={s.profit}>
+		<section id="Profits" className={s.profit}>
 			<div className={`container ${s.profitContainer}`}>
 				<div className={s.titleImg}>
 					<picture>
