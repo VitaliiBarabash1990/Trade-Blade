@@ -1,0 +1,37 @@
+[
+	{
+		"id": 0,
+		"currency": "NEAR/USDT",
+		"procent": "58.6206",
+		"goal": "Цель 4",
+		"date": "06.10.2022"
+	},
+	{
+		"id": 1,
+		"currency": "BTC/USDT",
+		"procent": "6.02",
+		"goal": "Цель 4",
+		"date": "06.10.2022"
+	},
+	{
+		"id": 2,
+		"currency": "ETH/USDT",
+		"procent": "16.3",
+		"goal": "Цель 4",
+		"date": "06.10.2022"
+	},
+	{
+		"id": 3,
+		"currency": "NEAR/USDT",
+		"procent": "0.963",
+		"goal": "Цель 4",
+		"date": "06.10.2022"
+	},
+	{
+		"id": 4,
+		"currency": "NEAR/USDT",
+		"procent": "58.62",
+		"goal": "Цель 4",
+		"date": "06.10.2022"
+	}
+]
