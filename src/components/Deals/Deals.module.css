@@ -3,102 +3,60 @@
 	padding-bottom: 53px;
 	margin-bottom: 24px;
 }
-
-@media screen and (min-width: 1200px) {
-	.pastTrades {
-		padding-top: 96px;
-		padding-bottom: 118px;
-		margin-bottom: 60px;
-
-		font-size: 44px;
-		letter-spacing: -1.76px;
-	}
-}
-
 .tradesContainer {
 	position: relative;
 }
-
 .tradeTitle {
 	margin-bottom: 2px;
-
 	color: var(--main-color);
 }
-
-@media screen and (min-width: 1200px) {
-	.tradeTitle {
-		margin-bottom: 4px;
-	}
-}
-
 .tradeStatus {
 	margin-bottom: 24px;
-
 	display: flex;
 	align-items: center;
 	gap: 4px;
-
 	font-size: 14px;
 	line-height: calc(20 / 14);
 	letter-spacing: -0.56px;
-
 	color: rgba(53, 255, 158, 0.9);
 }
-
-@media screen and (min-width: 1200px) {
-	.tradeStatus {
-		margin-bottom: 72px;
-	}
-}
-
 .tradeStatus::before {
 	content: "";
 	display: block;
 	width: 7px;
 	height: 7px;
-
 	background-color: rgba(53, 255, 158, 0.9);
 	border-radius: 50%;
 }
-
 .swiperWrapper.wrapperCard {
 	display: flex;
 	gap: 20px;
 }
-
 .pastTrades .card {
 	padding: 16px 16px 13px 16px;
-
 	display: flex;
 	flex-direction: column;
-
 	border-radius: 4px;
-
-	/* background-image: url("../icon-trade-card.svg"), url("../bg-trade-card.svg"); */
 	background-image: url("../../../public/icon-trade-card.svg"),
 		url("../../../public/bg-trade-card.svg");
 	background-repeat: no-repeat;
 	background-position: 100% 8px;
 	background-size: auto;
 }
-
-.swiperSlide.card {
+/* .swiperSlide.card {
 	margin-right: 0 !important;
-
 	width: 299px !important;
 	height: 208px !important;
-}
+} */
 
 .swiperScrollbar {
 	border-radius: 56px;
 	background-color: rgba(67, 79, 112, 0.4);
 	background-color: red;
 }
-
 .card .nearSpot {
 	margin-bottom: auto;
 }
-
 .subTitle {
 	font-size: 20px;
 	font-weight: 500;
@@ -108,11 +66,9 @@
 	text-transform: uppercase;
 	color: var(--white);
 }
-
 .pastTrades .subTitle {
 	margin-bottom: 2px;
 }
-
 .tradeText {
 	font-size: 14px;
 	font-weight: 500;
@@ -121,52 +77,55 @@
 	text-align: left;
 	color: var(--white);
 }
-
 .pastTrades .opacityFirst {
 	color: rgba(255, 255, 255, 0.4);
 }
-
 .tradePercent {
 	display: flex;
 	align-items: center;
 	gap: 6px;
-
 	font-size: 28px;
 	font-weight: 500;
 	line-height: calc(36 / 28);
 	letter-spacing: -0.56px;
-
 	text-transform: uppercase;
-
 	color: #35ff9e;
 }
-
 .pastTrades .profitPercent {
 	margin-bottom: 9px;
 }
-
 .pastTrades .tradeProfit {
 	margin-bottom: 2px;
-
 	text-transform: uppercase;
 }
-
 .pastTrades .opacitySecond {
 	color: rgba(255, 255, 255, 0.7);
 }
-
 .pastTrades .tradeWeight {
 	font-weight: 400;
 }
-
 .tradeIcon {
 	width: 11px;
 	height: 18px;
-
 	stroke: var(--q);
 }
-
 .pastTrades .goalDate {
 	display: flex;
 	justify-content: space-between;
+}
+@media screen and (min-width: 1280px) {
+	.pastTrades {
+		padding-top: 96px;
+		padding-bottom: 118px;
+		margin-bottom: 60px;
+
+		font-size: 44px;
+		letter-spacing: -1.76px;
+	}
+	.tradeTitle {
+		margin-bottom: 4px;
+	}
+	.tradeStatus {
+		margin-bottom: 72px;
+	}
 }
