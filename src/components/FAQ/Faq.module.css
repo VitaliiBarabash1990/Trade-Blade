@@ -1,0 +1,158 @@
+.accordionContainer {
+	padding: 0 16px;
+	background: var(--white);
+}
+.accordionSection {
+	padding-top: 56px;
+	padding-bottom: 56px;
+}
+
+.accordionTitle {
+	font-size: 20px;
+	text-align: left;
+	color: #000;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+
+.accordionWraper {
+	/* border: 1px solid #ccc; */
+	margin: 12px 0;
+	border-radius: 5px;
+	background: #eaeff0;
+}
+
+.accordionTogle {
+	background: #eaeff0;
+	color: var(--text-black);
+	padding: 26px 10px;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.accordionToglePurple {
+	background: var(--purple);
+	color: var(--text-black);
+	padding: 26px 10px;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.accordionToggleTitle,
+.accordionToggleTitleWhite {
+	font-weight: 500;
+	font-family: var(--font-family);
+	font-size: 16px;
+	line-height: 133%;
+	letter-spacing: -0.04em;
+	transition: color 500ms ease-in-out 0ms;
+}
+.accordionToggleTitle {
+	color: var(--white);
+}
+.accordionToggleTitleWhite {
+	color: #030718;
+}
+
+.accordionIconArrow,
+.accordionIconArrowTop {
+	stroke: #030718;
+	width: 17px;
+	height: 10px;
+}
+
+.accordionIconArrow {
+	rotate: 180deg;
+	transition-duration: 400ms;
+}
+
+.accordionIconArrowTop {
+	rotate: 360deg;
+	transition-duration: 400ms;
+}
+
+.accordionIconArrow:hover,
+.accordionIconArrowTop:hover {
+	fill: var(--q);
+	stroke: var(--q);
+}
+
+.isOpen {
+	text-align: left;
+	padding: 9px 13px;
+	background: var(--purple);
+	color: var(--text-black);
+}
+@media screen and (max-width: 374px) {
+	.accordionToggleTitle {
+		font-size: 12px;
+	}
+	.isOpen {
+		font-size: 14px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.accordionContainer {
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+	.accordionSection {
+		padding-top: 64px;
+		padding-bottom: 64px;
+	}
+	.accordionTitle {
+		font-size: 32px;
+	}
+	.accordionWraper {
+		margin: 12px 0;
+	}
+	.accordionToggleTitle,
+	.accordionToggleTitleWhite {
+		font-size: 24px;
+	}
+	.accordionIconArrow,
+	.accordionIconArrowTop {
+		width: 24px;
+		height: 16px;
+	}
+	.accordionTogle {
+		background: #eaeff0;
+		color: var(--text-black);
+		padding: 18px 16px;
+		cursor: pointer;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.isOpen {
+		font-size: 20px;
+	}
+}
+@media screen and (min-width: 1280px) {
+	.accordionSection {
+		padding: 96px 233px;
+		min-width: 896px;
+	}
+	.accordionContainer {
+		padding-left: 64px;
+		padding-right: 64px;
+	}
+
+	.accordionTitle {
+		font-size: 44px;
+		margin-bottom: 64px;
+	}
+	.accordionIconArrow,
+	.accordionIconArrowTop {
+		width: 38px;
+		height: 22px;
+	}
+	.isOpen {
+		font-size: 24px;
+		padding: 16px;
+	}
+}

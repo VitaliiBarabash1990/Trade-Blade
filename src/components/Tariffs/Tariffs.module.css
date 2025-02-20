@@ -95,6 +95,7 @@
 .tariffsText {
 	line-height: calc(20 / 16);
 	color: var(--white);
+	text-align: left;
 }
 .tariffs .priceButton {
 	margin-bottom: 24px;

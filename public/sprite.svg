@@ -68,5 +68,8 @@
     <symbol id="arrow-top" viewBox="0 0 20 32">
       <path fill="none" stroke-width="2" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.5556" d="M10.158 3.556l7.62 8M10.158 3.556l-8.38 8M10.158 3.556v28.444"></path>
     </symbol>
+		<symbol id="icon-arrow_bottom" viewBox="0 0 55 32">
+		<path d="M54.714 4.364l-27.078 27.078-27.078-27.078 3.095-3.095 23.983 23.985 23.983-23.983 3.095 3.092z"></path>
+		</symbol>
   </defs>
 </svg>
