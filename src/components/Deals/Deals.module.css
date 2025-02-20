@@ -38,7 +38,7 @@
 	align-items: center;
 	gap: 4px;
 
-	font-size: var(--basic-font-size);
+	font-size: 14px;
 	line-height: calc(20 / 14);
 	letter-spacing: -0.56px;
 
@@ -95,29 +95,18 @@
 	background-color: red;
 }
 
-/* .past-trades .card:not(:first-child) {
-    display: none;
-} */
-
-/* @media screen and (min-width:1200px) {
-    .past-trades .card:not(:first-child) {
-        display: block;
-    }
-} */
-
 .card .nearSpot {
 	margin-bottom: auto;
 }
 
 .subTitle {
 	font-size: 20px;
-	font-weight: var(--basic-font-weight);
+	font-weight: 500;
 	line-height: calc(28 / 20);
 	letter-spacing: -0.8px;
-
-	text-transform: var(--basic-text-transform);
-
-	color: var(--main-color);
+	text-align: left;
+	text-transform: uppercase;
+	color: var(--white);
 }
 
 .pastTrades .subTitle {
@@ -125,12 +114,12 @@
 }
 
 .tradeText {
-	font-size: var(--basic-font-size);
-	font-weight: var(--basic-font-weight);
+	font-size: 14px;
+	font-weight: 500;
 	line-height: calc(18 / 14);
 	letter-spacing: -0.28px;
-
-	color: var(--main-color);
+	text-align: left;
+	color: var(--white);
 }
 
 .pastTrades .opacityFirst {
@@ -143,11 +132,11 @@
 	gap: 6px;
 
 	font-size: 28px;
-	font-weight: var(--basic-font-weight);
+	font-weight: 500;
 	line-height: calc(36 / 28);
 	letter-spacing: -0.56px;
 
-	text-transform: var(--basic-text-transform);
+	text-transform: uppercase;
 
 	color: #35ff9e;
 }
@@ -159,7 +148,7 @@
 .pastTrades .tradeProfit {
 	margin-bottom: 2px;
 
-	text-transform: var(--basic-text-transform);
+	text-transform: uppercase;
 }
 
 .pastTrades .opacitySecond {
@@ -174,7 +163,7 @@
 	width: 11px;
 	height: 18px;
 
-	stroke: currentColor;
+	stroke: var(--q);
 }
 
 .pastTrades .goalDate {

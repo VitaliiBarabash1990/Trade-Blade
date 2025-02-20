@@ -113,6 +113,7 @@ img {
 	letter-spacing: -0.04em;
 	text-transform: uppercase;
 	color: var(--white);
+	text-align: left;
 }
 
 .text {
@@ -120,6 +121,7 @@ img {
 	font-weight: 400;
 	line-height: 125%;
 	color: #e7f7f8;
+	text-align: left;
 }
 
 .p {
@@ -127,6 +129,7 @@ img {
 	font-weight: 400;
 	line-height: 143%;
 	color: var(--white);
+	text-align: left;
 }
 
 .navlink {
