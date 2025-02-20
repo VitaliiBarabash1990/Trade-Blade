@@ -4,54 +4,14 @@
 
 	background-color: var(--white);
 }
-
-@media screen and (min-width: 1200px) {
-	.about {
-		padding-top: 56px;
-		padding-bottom: 92px;
-	}
-}
-
 .aboutContainer {
 	position: relative;
 }
-
-@media screen and (min-width: 1200px) {
-	.aboutContainer {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-	}
-}
-
 .about .wrapperImg {
 	position: absolute;
 	top: -104px;
 	left: 0;
 }
-
-@media screen and (min-width: 1200px) {
-	.about .wrapperImg {
-		top: -115px;
-		left: -80px;
-	}
-}
-
-@media screen and (min-width: 1200px) {
-	.about .titleDesc {
-		margin-bottom: 40px;
-		font-size: 44px;
-		color: #000;
-		text-align: left;
-	}
-}
-
-@media screen and (max-width: 1199px) {
-	.about .titleDesc {
-		display: none;
-	}
-}
-
 .about .title {
 	position: absolute;
 	bottom: 0;
@@ -59,99 +19,31 @@
 	font-size: 28px;
 	color: #030718;
 }
-
-@media screen and (min-width: 1200px) {
-	.about .title {
-		display: none;
-	}
-}
-
 .about .text {
 	color: rgba(3, 7, 24, 0.8);
 	text-align: left;
 }
-
-@media screen and (min-width: 1200px) {
-	.about .text {
-		max-width: 413px;
-	}
-}
-
 .about .textSecondary {
 	margin-top: 20px;
 	display: block;
 }
-
 .about .aboutForm {
 	border-radius: 4px;
 	background-color: var(--purple);
 }
-
-@media screen and (max-width: 1199px) {
-	.about .aboutForm {
-		position: absolute;
-		bottom: -258px;
-		left: 50%;
-		padding: 16px;
-
-		width: 356px;
-		transform: translateX(-50%);
-	}
-}
-
-@media screen and (min-width: 1200px) {
-	.about .aboutForm {
-		padding: 32px 64px 40px 64px;
-		width: 630px;
-	}
-}
-
 .aboutForm .formText {
 	margin-bottom: 20px;
 	display: block;
-
 	font-size: 20px;
 	font-weight: 500;
 	line-height: calc(28 / 20);
 	letter-spacing: -0.8px;
-
 	text-align: center;
-
 	color: var(--white);
 }
-
-@media screen and (min-width: 1200px) {
-	.aboutForm .formText {
-		margin-bottom: 32px;
-
-		font-size: 28px;
-		line-height: calc(36 / 28);
-		letter-spacing: -1.12px;
-	}
-}
-
 .about .inputAbout {
 	background-color: rgb(0, 0, 0, 0.3);
 }
-
-@media screen and (max-width: 1199px) {
-	.about .inputAbout {
-		margin-bottom: 8px;
-	}
-}
-
-@media screen and (min-width: 1200px) {
-	.about .inputAbout {
-		background-color: #4a3bb3;
-	}
-}
-
-@media screen and (min-width: 1200px) {
-	.about .inputForm {
-		position: relative;
-	}
-}
-
 .aboutForm .buttonForm {
 	padding: 16px 24px;
 	width: 100%;
@@ -167,21 +59,6 @@
 	background: var(--q);
 	box-shadow: 0px 0px 4px 0px var(--q);
 }
-
-@media screen and (min-width: 1200px) {
-	.aboutForm .buttonForm {
-		position: absolute;
-		top: 50%;
-		right: 4px;
-
-		padding: 16px 24px;
-
-		width: 165px;
-
-		transform: translateY(-50%);
-	}
-}
-
 .inputEmail {
 	padding: 0;
 	padding-left: 16px;
@@ -193,21 +70,83 @@
 	border: none;
 	background-color: #201a4f;
 }
-@media screen and (min-width: 1200px) {
-	.inputEmail {
-		height: 60px;
-	}
-}
 .inputEmail::placeholder {
 	font-size: 14px;
 	font-weight: 500;
 	line-height: calc(20 / 14);
 	letter-spacing: -0.14px;
-
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 0.34);
 }
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1279px) {
+	.about .titleDesc {
+		display: none;
+	}
+	.about .aboutForm {
+		position: absolute;
+		bottom: -258px;
+		left: 50%;
+		padding: 16px;
+		width: 356px;
+		transform: translateX(-50%);
+	}
+	.about .inputAbout {
+		margin-bottom: 8px;
+	}
+}
+@media screen and (min-width: 1280px) {
+	.about {
+		padding-top: 56px;
+		padding-bottom: 92px;
+	}
+	.aboutContainer {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.about .wrapperImg {
+		top: -115px;
+		left: -80px;
+	}
+	.about .titleDesc {
+		margin-bottom: 40px;
+		font-size: 44px;
+		color: #000;
+		text-align: left;
+	}
+	.about .title {
+		display: none;
+	}
+	.about .text {
+		max-width: 413px;
+	}
+	.about .aboutForm {
+		padding: 32px 64px 40px 64px;
+		width: 630px;
+	}
+	.aboutForm .formText {
+		margin-bottom: 32px;
+		font-size: 28px;
+		line-height: calc(36 / 28);
+		letter-spacing: -1.12px;
+	}
+	.about .inputAbout {
+		background-color: #4a3bb3;
+	}
+	.about .inputForm {
+		position: relative;
+	}
+	.aboutForm .buttonForm {
+		position: absolute;
+		top: 50%;
+		right: 4px;
+		padding: 16px 24px;
+		width: 165px;
+		transform: translateY(-50%);
+	}
+	.inputEmail {
+		height: 60px;
+	}
 	.inputEmail::placeholder {
 		font-size: 16px;
 		line-height: calc(20 / 14);

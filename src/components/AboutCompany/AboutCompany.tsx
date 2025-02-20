@@ -9,7 +9,7 @@ export default function AboutCompany() {
 					<div className={s.wrapperImg}>
 						<picture>
 							<source
-								media="(min-width: 1200px)"
+								media="(min-width: 1280px)"
 								srcSet="
                     ./profit-desctop.png    1x,
                     ./profit-desctop@2x.png 2x
