@@ -53,7 +53,7 @@ const Hero = () => {
 								placeholder="Ваш e–mail"
 							/>
 							<button type="submit" className={`button ${s.buttonForm}`}>
-								почати
+								попробовать
 							</button>
 						</form>
 						<p className={s.afterForm}>5 дней бесплатного пользования</p>

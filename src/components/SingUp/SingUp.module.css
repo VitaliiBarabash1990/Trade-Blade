@@ -1,0 +1,31 @@
+.singUpSection {
+	width: 100%;
+	background: var(--purple);
+}
+.containerWraper {
+	padding: 0 32px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.textSingUp {
+	text-align: left;
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 140%;
+	letter-spacing: -0.04em;
+	color: var(--white);
+}
+.left,
+.right {
+	width: 523px;
+}
+
+@media screen and (min-width: 1280px) {
+	.textSingUp {
+		font-size: 28px;
+		line-height: 129%;
+	}
+}
