@@ -39,6 +39,11 @@
 	align-items: flex-start;
 	gap: 12px;
 }
+.footerNav_item:hover {
+	color: var(--q);
+	transform: scale(1.01);
+	transition: transform 0.3s ease-in-out;
+}
 
 .footerInfo,
 .footerNav_item {
@@ -52,6 +57,7 @@
 	width: 100%;
 	padding: 20px 16px 0;
 }
+
 .footer_logo {
 	display: block;
 	width: 165px;
@@ -81,10 +87,11 @@
 	}
 	.footerDescr {
 		width: 65%;
-		padding: 0;
+		padding: 44px 0;
 		flex-direction: column;
 		justify-content: space-between;
 		height: 100%;
+		gap: 224px;
 	}
 	.footerTitle {
 		width: 100%;
@@ -97,5 +104,6 @@
 		width: 35%;
 		padding: 0;
 		align-items: flex-end;
+		gap: 160px;
 	}
 }

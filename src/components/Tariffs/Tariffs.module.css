@@ -10,38 +10,6 @@
 	margin-bottom: 28px;
 	color: var(--white);
 }
-.buttonsWrapper {
-	position: relative;
-	margin-bottom: 100px;
-}
-.buttonsWrapper > .itemSpot {
-	position: absolute;
-	top: 50%;
-	left: 4px;
-	transform: translateY(-50%);
-}
-.buttonBasic {
-	padding-top: 14px;
-	padding-bottom: 14px;
-	padding-right: 47px;
-	min-width: 343px;
-	font-size: 18px;
-	font-weight: 500;
-	line-height: calc(24 / 18);
-	letter-spacing: -0.72px;
-	text-align: end;
-	border-radius: 4px;
-	background-color: rgba(106, 84, 255, 0.4);
-	border: none;
-	color: rgba(87, 225, 255, 0.8);
-}
-.buttonBasic.buttonSpot {
-	min-width: 167px;
-	padding: 10px 60px;
-	font-weight: 700;
-	background-color: var(--q);
-	color: #000000;
-}
 .tariffsList {
 	display: flex;
 	flex-direction: column;
@@ -146,6 +114,9 @@
 	background-color: var(--q);
 	box-shadow: 0px 0px 4px 0px var(--q);
 }
+.tariffsLink:hover {
+	opacity: 0.8;
+}
 
 .tariffsLink > .textTry {
 	font-weight: 500;
@@ -169,6 +140,55 @@
 	text-align: center;
 }
 
+.buttonsWrapper {
+	border-radius: 4px;
+	max-width: 413px;
+	height: 52px;
+	background: var(--purple);
+	/* opacity: 0.4; */
+	margin-bottom: 44px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.itemSpot {
+	width: 50%;
+}
+
+.buttonBasic {
+	width: 100%;
+	height: 100%;
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 117%;
+	letter-spacing: -0.04em;
+	text-transform: uppercase;
+	color: var(--q);
+	opacity: 0.8;
+}
+.buttonBasic:hover {
+	background: var(--q);
+	width: 98%;
+	height: 44px;
+	border-radius: 4px;
+	color: #000;
+}
+.buttonSpot {
+	border-radius: 4px;
+	width: 98%;
+	height: 44px;
+	background: var(--q);
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 117%;
+	letter-spacing: -0.04em;
+	text-transform: uppercase;
+	color: #000;
+}
+
 @media screen and (min-width: 1280px) {
 	.tariffs {
 		padding-top: 96px;
@@ -182,19 +202,6 @@
 	}
 	.buttons-wrapper {
 		margin-bottom: 44px;
-	}
-	.buttonBasic {
-		padding-top: 12px;
-		padding-bottom: 12px;
-		padding-right: 49px;
-		min-width: 413px;
-		font-size: 24px;
-		line-height: calc(28 / 24);
-		letter-spacing: -0.96px;
-	}
-	.buttonBasic.buttonSpot {
-		padding: 8px 70px;
-		min-width: 201px;
 	}
 	.tariffsList {
 		flex-direction: row;

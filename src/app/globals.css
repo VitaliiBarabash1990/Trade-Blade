@@ -78,7 +78,7 @@ button {
 
 .button:hover,
 .button:focus {
-	background: var(--button-active);
+	background: var(--purple);
 }
 
 input {

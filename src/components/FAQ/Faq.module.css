@@ -87,6 +87,11 @@
 	background: var(--purple);
 	color: var(--text-black);
 }
+.faqContent {
+	font-size: 16px;
+	color: var(--white);
+	opacity: 0.8;
+}
 @media screen and (max-width: 374px) {
 	.accordionToggleTitle {
 		font-size: 12px;

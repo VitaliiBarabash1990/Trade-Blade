@@ -33,21 +33,15 @@
 	gap: 20px;
 }
 .pastTrades .card {
-	padding: 16px 16px 13px 16px;
+	padding: 16px 32px 13px 16px;
 	display: flex;
 	flex-direction: column;
 	border-radius: 4px;
 	background-image: url("../../../public/icon-trade-card.svg"),
 		url("../../../public/bg-trade-card.svg");
 	background-repeat: no-repeat;
-	background-position: 100% 8px;
 	background-size: auto;
 }
-/* .swiperSlide.card {
-	margin-right: 0 !important;
-	width: 299px !important;
-	height: 208px !important;
-} */
 
 .swiperScrollbar {
 	border-radius: 56px;
@@ -112,6 +106,23 @@
 .pastTrades .goalDate {
 	display: flex;
 	justify-content: space-between;
+}
+.swiper {
+	width: 100%;
+	overflow: hidden;
+}
+.swiper-wrapper {
+	display: flex;
+}
+.swiper-slide {
+	flex-shrink: 0;
+	width: auto;
+	display: flex;
+	justify-content: center;
+}
+.pastTrades .card {
+	width: 100%;
+	max-width: 320px;
 }
 @media screen and (min-width: 1280px) {
 	.pastTrades {

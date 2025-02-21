@@ -61,9 +61,9 @@ export function FaqItem({
 						initial={{ opacity: 0, y: 10 }}
 						transition={{ delay: 0.2, duration: 0.3 }}
 					>
-						<p>{content_1}</p>
+						<p className={s.faqContent}>{content_1}</p>
 						<br />
-						<p>{content_2}</p>
+						<p className={s.faqContent}>{content_2}</p>
 					</motion.div>
 				</motion.div>
 			)}
