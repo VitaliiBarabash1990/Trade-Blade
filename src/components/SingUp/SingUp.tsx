@@ -13,20 +13,15 @@ export default function SingUp() {
 						</h2>
 					</li>
 					<li className={s.right}>
-						<form className={s.aboutForm} name="about_form">
-							<strong className={s.formText}>
-								Попробуйте сейчас и получите 5 дней бесплатного пользования
-							</strong>
-							<div className={s.inputForm}>
-								<input
-									type="email"
-									placeholder="ваш e-mail"
-									className={`${s.inputEmail} ${s.inputAbout}`}
-								/>
-								<button type="submit" className={s.buttonForm}>
-									попробовать
-								</button>
-							</div>
+						<form className={s.inputForm} name="about_form">
+							<input
+								type="email"
+								placeholder="ваш e-mail"
+								className={`${s.inputEmail} ${s.inputAbout}`}
+							/>
+							<button type="submit" className={s.buttonForm}>
+								Зарегистрироваться
+							</button>
 						</form>
 					</li>
 				</ul>
