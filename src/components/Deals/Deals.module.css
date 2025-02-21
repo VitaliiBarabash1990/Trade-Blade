@@ -5,6 +5,7 @@
 }
 .tradesContainer {
 	position: relative;
+	padding-bottom: 40px;
 }
 .tradeTitle {
 	margin-bottom: 2px;
@@ -33,13 +34,14 @@
 	gap: 20px;
 }
 .pastTrades .card {
-	padding: 16px 32px 13px 16px;
+	padding: 16px 32px 13px 32px;
 	display: flex;
 	flex-direction: column;
 	border-radius: 4px;
 	background-image: url("../../../public/icon-trade-card.svg"),
 		url("../../../public/bg-trade-card.svg");
 	background-repeat: no-repeat;
+	background-position: 100% 8px;
 	background-size: auto;
 }
 
