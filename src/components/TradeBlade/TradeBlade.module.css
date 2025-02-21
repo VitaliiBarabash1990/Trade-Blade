@@ -24,16 +24,45 @@
 .tradeIcon {
 	width: 56px;
 	height: 56px;
+	flex-shrink: 0;
+}
+.rightList {
+	display: flex;
+	justify-content: space-between;
+	gap: 32px;
+}
+.rightListTitle {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 140%;
+	margin-bottom: 8px;
+	text-transform: none;
+}
+.rightListText {
+	font-size: 14px;
+	line-height: 121%;
+	opacity: 0.8;
+}
+.rightItems {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
 }
 
 @media screen and (min-width: 768px) {
 	.tradeSection {
-		padding-top: 76px;
 		padding-bottom: 76px;
 	}
 	.tradeTitle {
 		font-size: 36px;
 		line-height: 127%;
+	}
+	.rightItems {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.rightList {
+		width: calc((100% - 32px) / 2);
 	}
 }
 @media screen and (min-width: 1280px) {
