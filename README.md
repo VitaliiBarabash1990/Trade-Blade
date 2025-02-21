@@ -1,4 +1,4 @@
-# React + Vite
+# TradeBlade
 
 Test task for the position of Front-End developer.
 
