@@ -16,15 +16,17 @@ export default function UseServise() {
 						<ul className={s.useCard}>
 							{Servises.map((servise) => (
 								<li key={servise.id} className={s.useCardItem}>
-									<h3>{servise.task}</h3>
-									<p>{servise.description}</p>
+									<h3 className={s.useItemTitle}>{servise.task}</h3>
+									<p className={`text ${s.useItemText}`}>
+										{servise.description}
+									</p>
 								</li>
 							))}
 						</ul>
 					</li>
 					<li className={s.useItem}>
 						<button type="button" className={`button ${s.useButton}`}>
-							Загрузить больше отзывов
+							Попробовать бесплатно
 						</button>
 					</li>
 				</ul>
