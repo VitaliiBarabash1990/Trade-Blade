@@ -16,20 +16,24 @@ export default function Reviews() {
 						<ul className={s.reviewsCard}>
 							{Members.map((member) => (
 								<li key={member.id} className={s.reviewsCardItem}>
-									<img src={member.src} alt={`member_${member.id}`} />
+									<img
+										src={member.src}
+										className={s.cardItemImg}
+										alt={`member_${member.id}`}
+									/>
 									<ul className={s.reviewsMember}>
 										<li className={s.memberItem}>
 											<h3 className={s.reviewsMemberTitle}>{member.name}</h3>
 										</li>
 										<li className={s.memberItem}>
-											<span className={s.reviewsMemberProfitText}>
+											<p className={s.reviewsMemberProfitText}>
 												{member.profit}
-											</span>
+											</p>
 										</li>
 										<li className={s.memberItem}>
-											<span className={s.reviewsMemberText}>
+											<p className={s.reviewsMemberText}>
 												{member.description}
-											</span>
+											</p>
 										</li>
 									</ul>
 								</li>

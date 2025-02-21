@@ -32,15 +32,26 @@
 	align-items: center;
 	justify-content: space-between;
 	gap: 16px;
+	margin-bottom: 24px;
 }
 
 .reviewsTitle {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 129%;
+	letter-spacing: -0.04em;
+	text-transform: uppercase;
+	color: var(--white);
+}
+.reviewsMemberTitle {
 	font-family: var(--font-family);
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 140%;
 	letter-spacing: -0.04em;
 	color: var(--white);
+	margin-bottom: 2px;
 }
 .reviewsMemberProfitText {
 	font-family: var(--font-family);
@@ -49,6 +60,7 @@
 	line-height: 129%;
 	letter-spacing: -0.02em;
 	color: #a5aebc;
+	padding-bottom: 12px;
 }
 .reviewsMemberText {
 	font-family: var(--font-family);
@@ -58,7 +70,26 @@
 	color: var(--white);
 	opacity: 0.8;
 }
+
+.reviewsCardItem {
+	display: flex;
+	flex-direction: row;
+	gap: 12px;
+	background: rgba(234, 239, 240, 0.2);
+	padding: 24px 16px;
+}
+.cardItemImg {
+	width: 81px;
+	height: 105px;
+}
+.reviewsMember {
+	text-align: left;
+}
 @media screen and (min-width: 768px) {
+	.sectionReviews {
+		padding-top: 76px;
+		padding-bottom: 76px;
+	}
 	.reviewsWraper {
 		max-width: 704px;
 		margin: 0 auto;
@@ -68,10 +99,39 @@
 	}
 }
 @media screen and (min-width: 1280px) {
+	.sectionReviews {
+		padding-top: 96px;
+		padding-bottom: 96px;
+	}
 	.reviewsWraper {
 		max-width: 1064px;
 	}
+	.reviewsCard {
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: baseline;
+		position: relative;
+		margin-bottom: 72px;
+	}
+	.reviewsCardItem {
+		width: calc((100% - 20px) / 2);
+		flex-shrink: 0;
+	}
+	.reviewsCardItem:last-child {
+		position: absolute;
+		right: 0;
+		bottom: 40px;
+	}
 	.reviewsTitle {
+		font-size: 44px;
+		line-height: 127%;
 		margin-bottom: 56px;
+	}
+	.reviewsCardItem {
+		display: flex;
+		flex-direction: row;
+		gap: 12px;
+		background: rgba(234, 239, 240, 0.2);
+		padding: 24px 16px;
 	}
 }
