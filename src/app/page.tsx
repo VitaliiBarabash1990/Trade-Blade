@@ -6,6 +6,7 @@ import Profits from "@/components/Profits/Profits";
 import Reviews from "@/components/Reviews/Reviews";
 import SingUp from "@/components/SingUp/SingUp";
 import Tariffs from "@/components/Tariffs/Tariffs";
+import UseServise from "@/components/UseServise/UseServise";
 
 export default function Home() {
 	return (
@@ -14,6 +15,7 @@ export default function Home() {
 			<Profits />
 			<Deals />
 			<AboutCompany />
+			<UseServise />
 			<Tariffs />
 			<Reviews />
 			<Faq />
