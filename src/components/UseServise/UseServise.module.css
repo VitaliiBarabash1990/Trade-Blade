@@ -1,10 +1,11 @@
 .sectionUse {
 	background: var(--purple);
-	padding-top: 150px;
+	padding-top: 56px;
 }
 .useWraper {
 	max-width: 704px;
 	margin: 0 auto;
+	position: relative;
 }
 .useTitle {
 	font-size: 28px;
@@ -73,7 +74,22 @@
 	text-transform: uppercase;
 	color: #030718;
 }
+
+.useRectangle {
+	position: absolute;
+	width: 270px;
+	height: 24px;
+	top: -78px;
+	left: -40px;
+}
+
 @media screen and (min-width: 768px) {
+	.useRectangle {
+		width: 470px;
+		height: 48px;
+		top: -100px;
+		left: -288px;
+	}
 }
 @media screen and (min-width: 1280px) {
 	.sectionUse {
@@ -105,5 +121,11 @@
 		font-size: 44px;
 		line-height: 127%;
 		margin-bottom: 79px;
+	}
+	.useRectangle {
+		width: 750px;
+		height: 60px;
+		top: -115px;
+		left: -220px;
 	}
 }
