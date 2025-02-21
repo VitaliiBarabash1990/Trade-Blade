@@ -1,0 +1,63 @@
+.tradeSection {
+	background: inherit;
+	padding-top: 182px;
+	padding-bottom: 71px;
+}
+.tradeWraper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 40px;
+}
+.tradeTitle {
+	font-size: 28px;
+	line-height: 129%;
+}
+.right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	gap: 32px;
+}
+.tradeIcon {
+	width: 56px;
+	height: 56px;
+}
+
+@media screen and (min-width: 768px) {
+	.tradeSection {
+		padding-top: 76px;
+		padding-bottom: 76px;
+	}
+	.tradeTitle {
+		font-size: 36px;
+		line-height: 127%;
+	}
+}
+@media screen and (min-width: 1280px) {
+	.tradeSection {
+		padding-top: 96px;
+		padding-bottom: 96px;
+	}
+	.tradeWraper {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 128px;
+	}
+	.left {
+		width: 305px;
+	}
+	.right {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		gap: 21px;
+	}
+	.tradeTitle {
+		font-size: 44px;
+	}
+}
