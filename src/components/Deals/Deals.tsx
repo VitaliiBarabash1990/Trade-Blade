@@ -21,16 +21,18 @@ export default function Deals() {
 					spaceBetween={20}
 					freeMode={true}
 					scrollbar={{ draggable: true }}
+					observer={true}
+					observeParents={true}
 					breakpoints={{
 						320: { slidesPerView: 1, spaceBetween: 10 },
 						640: { slidesPerView: 2, spaceBetween: 15 },
 						1024: { slidesPerView: 3, spaceBetween: 20 },
 						1280: { slidesPerView: 4, spaceBetween: 25 },
 					}}
-					className="mySwiper"
+					className={s.swiper}
 				>
 					{listDeal.map((list) => (
-						<SwiperSlide key={list.id}>
+						<SwiperSlide key={list.id} className={s.swiperWrapCard}>
 							<div className={s.card}>
 								<div className={s.nearSpot}>
 									<h3 className={s.subTitle}>{list.currency}</h3>
@@ -64,6 +66,8 @@ export default function Deals() {
 							</div>
 						</SwiperSlide>
 					))}
+
+					<div className="scrollbar"></div>
 				</Swiper>
 			</div>
 		</section>

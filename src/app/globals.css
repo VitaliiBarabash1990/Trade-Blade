@@ -189,3 +189,28 @@ img {
 .no-scroll {
 	overflow: hidden;
 }
+
+.scrollbar {
+	height: 6px;
+
+	background: rgba(125, 143, 189, 0.4);
+	border-radius: 6px;
+	margin-top: 10px;
+	position: relative;
+	top: -1px;
+	width: 90%;
+	margin: 0 auto;
+	z-index: 999;
+}
+
+.swiper-scrollbar {
+	max-width: 95%;
+}
+
+.swiper-scrollbar .swiper-scrollbar-drag {
+	background: rgb(67, 79, 112, 0.9);
+	height: 6px;
+	max-width: 75%;
+	border-radius: 4px;
+	margin-left: 50px;
+}

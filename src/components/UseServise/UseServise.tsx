@@ -38,29 +38,3 @@ export default function UseServise() {
 		</section>
 	);
 }
-
-{
-	/* <div className={s.wrapperImg}>
-	<picture>
-		<source
-			media="(min-width: 1280px)"
-			srcSet="
-                    ./profit-desctop.png    1x,
-                    ./profit-desctop@2x.png 2x
-                  "
-			type="image/png"
-		/>
-		<source
-			media="(min-width: 375px)"
-			srcSet="
-                    ./title-profit.png    1x,
-                    ./title-profit@2x.png 2x
-                  "
-			type="image/png"
-		/>
-
-		<img src="./title-profit.png" alt="фон для заголовка" />
-	</picture>
-	<h2 className={s.title}>О компании</h2>
-</div>; */
-}

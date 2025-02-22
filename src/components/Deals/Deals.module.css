@@ -29,10 +29,6 @@
 	background-color: rgba(53, 255, 158, 0.9);
 	border-radius: 50%;
 }
-.swiperWrapper.wrapperCard {
-	display: flex;
-	gap: 20px;
-}
 .pastTrades .card {
 	padding: 16px 32px 13px 32px;
 	display: flex;
@@ -43,12 +39,6 @@
 	background-repeat: no-repeat;
 	background-position: 100% 8px;
 	background-size: auto;
-}
-
-.swiperScrollbar {
-	border-radius: 56px;
-	background-color: rgba(67, 79, 112, 0.4);
-	background-color: red;
 }
 .card .nearSpot {
 	margin-bottom: auto;
@@ -109,19 +99,6 @@
 	display: flex;
 	justify-content: space-between;
 }
-.swiper {
-	width: 100%;
-	overflow: hidden;
-}
-.swiper-wrapper {
-	display: flex;
-}
-.swiper-slide {
-	flex-shrink: 0;
-	width: auto;
-	display: flex;
-	justify-content: center;
-}
 .pastTrades .card {
 	width: 100%;
 	max-width: 320px;
@@ -140,5 +117,8 @@
 	}
 	.tradeStatus {
 		margin-bottom: 72px;
+	}
+	.swiperWrapCard {
+		padding-bottom: 25px;
 	}
 }
