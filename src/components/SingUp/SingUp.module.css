@@ -104,4 +104,10 @@
 		width: auto;
 		transform: translateY(-50%);
 	}
+
+	.buttonForm:hover {
+		scale: 1.01;
+		background: var(--purple);
+		color: var(--q);
+	}
 }

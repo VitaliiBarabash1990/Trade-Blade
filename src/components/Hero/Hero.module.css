@@ -107,7 +107,9 @@
 }
 
 .buttonForm:hover {
-	opacity: 0.8;
+	scale: 1.01;
+	background: var(--purple);
+	color: var(--q);
 }
 
 .afterForm {

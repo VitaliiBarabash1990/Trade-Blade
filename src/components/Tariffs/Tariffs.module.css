@@ -103,6 +103,11 @@
 	background-color: rgba(255, 255, 255, 0.2);
 	color: var(--white);
 }
+.tariffsButton:hover {
+	scale: 1.01;
+	background: var(--purple);
+	color: var(--q);
+}
 .tariffsButton > .monthIcon {
 	stroke: rgb(255, 255, 255);
 }
@@ -114,8 +119,13 @@
 	background-color: var(--q);
 	box-shadow: 0px 0px 4px 0px var(--q);
 }
+.tariffsLink:hover .textTry,
+.tariffsLink:hover .textFree {
+	color: var(--q);
+}
 .tariffsLink:hover {
-	opacity: 0.8;
+	scale: 1.01;
+	background: var(--purple);
 }
 
 .tariffsLink > .textTry {

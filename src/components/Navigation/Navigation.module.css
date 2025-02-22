@@ -140,6 +140,9 @@
 		background-color: var(--q);
 		box-shadow: 0px 0px 4px 0px var(--q);
 	}
+	.button_registration:hover {
+		color: var(--q);
+	}
 }
 
 @media screen and (min-width: 1440px) {
